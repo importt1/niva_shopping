@@ -1,0 +1,60 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(-45deg,rgb(146, 90, 153),rgb(102, 47, 47),rgb(75, 68, 28),rgb(161, 86, 98));
+    background-size: 400% 400%;
+    height: 100vh;
+    width: 100%;
+    animation: animate 15S ease infinite;
+    display: inline-block;
+    justify-content: baseline;
+}
+
+.links{
+   
+transition: none;
+margin-top:25% ;
+margin-bottom:0% ;
+padding: 3px;
+text-align: center;
+ 
+}
+.instagram{
+    font-size: 25px;
+    color: rgb(233, 159, 159);
+    text-decoration: none;
+margin-left: 0px;
+}
+.instagram:hover{
+    font-size: 25px;
+    color: rgb(224, 134, 92);
+    text-decoration: none;
+margin-left: 0px;
+}
+.snapchat{
+    font-size: 25px;
+    color: rgb(150, 151, 81);
+    text-decoration: none;
+margin-left: 0px;
+}
+.snapchat:hover{
+    font-size: 25px;
+    color: rgb(191, 199, 87);
+    text-decoration: none;
+margin-left: 0px;
+}
+
+@keyframes animate {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
