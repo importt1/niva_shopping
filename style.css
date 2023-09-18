@@ -46,6 +46,18 @@ margin-left: 0px;
     text-decoration: none;
 margin-left: 0px;
 }
+.tiktok{
+    font-size: 25px;
+    color: rgb(53, 46, 46);
+    text-decoration: none;
+margin-left: 0px;
+}
+.tiktok:hover{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+margin-left: 0px;
+}
 
 @keyframes animate {
     0%{
