@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background: linear-gradient(-45deg,rgb(146, 90, 153),rgb(102, 47, 47),rgb(75, 68, 28),rgb(161, 86, 98));
+    background: linear-gradient(-45deg,rgb(155, 90, 153),rgb(190, 47, 47),rgb(85, 68, 28),rgb(175, 86, 98));
     background-size: 400% 400%;
     height: 100vh;
     width: 100%;
